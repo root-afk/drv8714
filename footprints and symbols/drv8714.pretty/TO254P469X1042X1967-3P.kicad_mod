@@ -1,0 +1,234 @@
+(footprint "TO254P469X1042X1967-3P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "IRF1104PBF-1")
+	(tags "MOSFET (N-Channel)")
+	(property "Reference" "Q**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "56b0789c-a107-4b1c-b7e8-79dde6e858be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TO254P469X1042X1967-3P"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "97fc17da-30bb-41ca-918b-77979599c7f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "TO254P469X1042X1967-3P"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72f31177-eb57-42b0-9131-c506cfb0ac8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc377777-274a-4015-8263-bb2e13d47f1e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "facf39d2-45de-49b0-9d1d-7f5345897f2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.73 -2.92)
+		(end -2.73 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df97d0ff-2ec5-4f99-a585-c5f4223d5aff")
+	)
+	(fp_line
+		(start 7.81 -2.92)
+		(end -2.73 -2.92)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72f696f2-3475-4064-b559-cd865fec749d")
+	)
+	(fp_line
+		(start 7.81 1.77)
+		(end 7.81 -2.92)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb89363e-30a5-4471-97b2-000d65306668")
+	)
+	(fp_line
+		(start -2.98 -3.17)
+		(end 8.06 -3.17)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "55f1bfa6-385e-45d9-aeeb-728913c9a62d")
+	)
+	(fp_line
+		(start -2.98 2.02)
+		(end -2.98 -3.17)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "96a2b3e8-b0d0-48bc-b910-4b5aef592f7f")
+	)
+	(fp_line
+		(start 8.06 -3.17)
+		(end 8.06 2.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "313ebaf9-6060-4001-9958-85c236185f84")
+	)
+	(fp_line
+		(start 8.06 2.02)
+		(end -2.98 2.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "001491aa-8c1b-492b-b700-0bfde260c6d8")
+	)
+	(fp_line
+		(start -2.73 -2.92)
+		(end 7.81 -2.92)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5343d6b0-b9ad-4427-b008-c6a10c99b4aa")
+	)
+	(fp_line
+		(start -2.73 -1.65)
+		(end -1.46 -2.92)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "245950ee-0800-4fe5-bb67-80ccf9305ab1")
+	)
+	(fp_line
+		(start -2.73 1.77)
+		(end -2.73 -2.92)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "238b2a50-0341-4100-a292-d7633395ff5f")
+	)
+	(fp_line
+		(start 7.81 -2.92)
+		(end 7.81 1.77)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cdf96f7c-1aca-4624-8f72-9c86624e0d7c")
+	)
+	(fp_line
+		(start 7.81 1.77)
+		(end -2.73 1.77)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "558c11f3-f8e2-43d7-92f7-d6b015da10ca")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ed9c3fbc-5532-418e-a596-ac381f0908c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.92 1.92)
+		(drill 1.28)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "17dd4052-ae38-4c6d-a3d7-18645fba8ede")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.92 1.92)
+		(drill 1.28)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "43e14790-97f5-4999-9073-8371922be71f")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.92 1.92)
+		(drill 1.28)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b9093a62-9b1a-4746-a382-32b3447b2d07")
+	)
+	(model "IRF1104PBF.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
